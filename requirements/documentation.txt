@@ -1,8 +1,8 @@
 # requirements for documentation
 
-Sphinx==2.4.4 \
-    --hash=sha256:b4c750d546ab6d7e05bdff6ac24db8ae3e8b8253a3569b754e445110a0a12b66 \
-    --hash=sha256:fc312670b56cb54920d6cc2ced455a22a547910de10b3142276495ced49231cb
+Sphinx==3.0.4 \
+    --hash=sha256:779a519adbd3a70fc7c468af08c5e74829868b0a5b34587b33340e010291856c \
+    --hash=sha256:ea64df287958ee5aac46be7ac2b7277305b0381d213728c3a49d8bb9b8415807
 sphinx-autodoc-annotation==1.0 \
     --hash=sha256:ab320d88f094ee4f8539cc08323f8486d8be856f8ab2fe9dc85607984b21e885
 sphinxcontrib-napoleon==0.7 \
