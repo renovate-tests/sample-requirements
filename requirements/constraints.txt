@@ -536,7 +536,7 @@ ptyprocess==0.6.0 \
 # moto
 aws-sam-translator==1.22.0 \
     --hash=sha256:3ba6a821eda29ca8ea1306e27a8135256d6136f1b0b29c6cbf9a107dfd1c2dd9
-aws-xray-sdk==2.4.3 \
+aws-xray-sdk==2.5.0 \
     --hash=sha256:263a38f3920d9dc625e3acb92e6f6d300f4250b70f538bd009ce6e485676ab74 \
     --hash=sha256:612dba6efc3704ef224ac0747b05488b8aad94e71be3ece4edbc051189d50482
 cfn-lint==0.29.4 \
