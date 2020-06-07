@@ -534,7 +534,7 @@ ptyprocess==0.6.0 \
     --hash=sha256:d7cc528d76e76342423ca640335bd3633420dc1366f258cb31d05e865ef5ca1f
 
 # moto
-aws-sam-translator==1.22.0 \
+aws-sam-translator==1.24.0 \
     --hash=sha256:3ba6a821eda29ca8ea1306e27a8135256d6136f1b0b29c6cbf9a107dfd1c2dd9
 aws-xray-sdk==2.4.3 \
     --hash=sha256:263a38f3920d9dc625e3acb92e6f6d300f4250b70f538bd009ce6e485676ab74 \
