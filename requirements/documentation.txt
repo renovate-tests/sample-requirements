@@ -3,8 +3,8 @@
 Sphinx==2.4.4 \
     --hash=sha256:b4c750d546ab6d7e05bdff6ac24db8ae3e8b8253a3569b754e445110a0a12b66 \
     --hash=sha256:fc312670b56cb54920d6cc2ced455a22a547910de10b3142276495ced49231cb
-sphinx-autodoc-annotation==1.0 \
-    --hash=sha256:ab320d88f094ee4f8539cc08323f8486d8be856f8ab2fe9dc85607984b21e885
+sphinx-autodoc-annotation==1.0-1 \
+    --hash=sha256:4a3d03081efe1e5f2bc9b9d00746550f45b9f543b0c79519c523168ca7f7d89a
 sphinxcontrib-napoleon==0.7 \
     --hash=sha256:407382beed396e9f2d7f3043fad6afda95719204a1e1a231ac865f40abcbfcf8 \
     --hash=sha256:711e41a3974bdf110a484aec4c1a556799eb0b3f3b897521a018ad7e2db13fef
