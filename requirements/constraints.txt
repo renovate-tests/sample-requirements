@@ -165,8 +165,8 @@ poyo==0.5.0 \
     --hash=sha256:e26956aa780c45f011ca9886f044590e2d8fd8b61db7b1c1cf4e0869f48ed4dd
 
 # wavefront-sdk-python
-accumulation-tree==0.6 \
-    --hash=sha256:133b6c1ed1cae791c193a4cc1a830ac5fdadf7950718a5653997946ccd5a62e4
+accumulation-tree==0.6.2 \
+    --hash=sha256:0de0f083ba56a82126d0af5940ba968264b201ab109b43581c6e709968417141
 pyudorandom==1.0.0 \
     --hash=sha256:f30a093a0170c15f9c7f87eb29f71f0f5fde995528b7c6dc4606d389e8c37755
 tdigest==0.5.2.2 \
