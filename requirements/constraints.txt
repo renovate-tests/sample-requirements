@@ -369,9 +369,9 @@ nodeenv==1.3.5 \
 aspy.yaml==1.3.0 \
     --hash=sha256:463372c043f70160a9ec950c3f1e4c3a82db5fca01d334b6bc89c7164d744bdc \
     --hash=sha256:e7c742382eff2caed61f87a39d13f99109088e5e93f04d76eb8d4b28aa143f45
-identify==1.4.13 \
-    --hash=sha256:a7577a1f55cee1d21953a5cf11a3c839ab87f5ef909a4cba6cf52ed72b4c6059 \
-    --hash=sha256:ab246293e6585a1c6361a505b68d5b501a0409310932b7de2c2ead667b564d89
+identify==1.4.19 \
+    --hash=sha256:249ebc7e2066d6393d27c1b1be3b70433f824a120b1d8274d362f1eb419e3b52 \
+    --hash=sha256:781fd3401f5d2b17b22a8b18b493a48d5d948e3330634e82742e23f9c20234ef
 
 # click-completion
 shellingham==1.3.2 \
