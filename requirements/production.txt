@@ -98,9 +98,9 @@ GitPython==3.1.0 \
     --hash=sha256:e426c3b587bd58c482f0b7fe6145ff4ac7ae6c82673fc656f489719abca6f4cb
 
 # Create infra stubs
-cookiecutter==1.7.0 \
-    --hash=sha256:479997e1c26c51bbbaf04097ef7d82b1d91cfb03f570cb5fb5ca265c88db04ae \
-    --hash=sha256:910e6c423da42c45c2614d6676485d4872c4ed1bd9531cfff59280977f98fbf5
+cookiecutter==1.7.2 \
+    --hash=sha256:430eb882d028afb6102c084bab6cf41f6559a77ce9b18dc6802e3bc0cc5f4a30 \
+    --hash=sha256:efb6b2d4780feda8908a873e38f0e61778c23f6a2ea58215723bcceb5b515dac
 
 # For using json_query in Ansible
 jmespath==0.9.5 \
