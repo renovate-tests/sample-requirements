@@ -146,7 +146,7 @@ smmap==3.0.1 \
     --hash=sha256:5fead614cf2de17ee0707a8c6a5f2aa5a2fc6c698c70993ba42f515485ffda78
 
 # cookiecutter
-arrow==0.15.5 \
+arrow==0.15.6 \
     --hash=sha256:5390e464e2c5f76971b60ffa7ee29c598c7501a294bc9f5e6dadcb251a5d027b \
     --hash=sha256:70729bcc831da496ca3cb4b7e89472c8e2d27d398908155e0796179f6d2d41ee
 binaryornot==0.4.4 \
