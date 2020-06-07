@@ -584,9 +584,9 @@ xmltodict==0.12.0 \
     --hash=sha256:8bbcb45cc982f48b2ca8fe7e7827c5d792f217ecf1792626f808bf41c3b86051
 
 # hypothesis
-sortedcontainers==2.1.0 \
-    --hash=sha256:974e9a32f56b17c1bac2aebd9dcf197f3eb9cd30553c5852a3187ad162e1a03a \
-    --hash=sha256:d9e96492dd51fae31e60837736b38fe42a187b5404c16606ff7ee7cd582d4c60
+sortedcontainers==2.2.1 \
+    --hash=sha256:45b00b65222c9220d4cde2910a0f40371edfb1d30b12825e16d6714fc4dd7498 \
+    --hash=sha256:5a5259b9b8a45b3e970e2817b2710423c118a08c06a18cad1f09f59f15514c8b
 
 # sphinxcontrib-napolean
 pockets==0.9.1 \
