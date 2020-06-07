@@ -2,9 +2,9 @@
 # These are needed by one or more requirements
 
 # boto3
-botocore==1.15.36 \
-    --hash=sha256:5fc5e8629b5375d591a47d05baaff6ccdf5c3b617aad1e14286be458092c9e53 \
-    --hash=sha256:d2233e19b6a60792185b15fe4cd8f92c5579298e5079daf17f66f6e639585e3a
+botocore==1.16.24 \
+    --hash=sha256:17bc71415186efb86a25dd674f78064cdd85139485967d5a0741c7b83d62cf5b \
+    --hash=sha256:e44b11b1c47c06b0f6524b0ff1fa1cae5ddea4eb06f359e4a9730e8e881b397a
 docutils==0.16 \
     --hash=sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af \
     --hash=sha256:c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc
