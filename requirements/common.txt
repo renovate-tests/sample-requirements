@@ -3,8 +3,7 @@
 -c constraints.txt
 
 # Automation tool used for large subsets of work
-ansible==2.9.6 \
-    --hash=sha256:59cf3a0781f89992d1dae5205b07e802dff1db205eebd238de9e503b62b8cbc9
+ansible==2.9.6
 ansible-runner==1.4.6 \
     --hash=sha256:0744642cff32d23310b3a5f5aae23d07bea1051724e66b27f9bbccefec8427dd \
     --hash=sha256:53605de32f7d3d3442a6deb8937bf1d9c1f91c785e3f71003d22c3e63f85c71d
