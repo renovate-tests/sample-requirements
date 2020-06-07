@@ -1,0 +1,187 @@
+# Requirements for production
+
+-r common.txt
+
+# Interact with Amazon
+boto3==1.12.36 \
+    --hash=sha256:57397f9ad3e9afc17e6100a38c6e631b6545aabc7f8c38b86ff2c6f5931d0ebf \
+    --hash=sha256:911994ef46595e8ab9f08eee6b666caea050937b96d54394292e958330cd7ad5
+boto==2.49.0 \
+    --hash=sha256:147758d41ae7240dc989f0039f27da8ca0d53734be0eb869ef16e3adcfa462e8 \
+    --hash=sha256:ea0d3b40a2d852767be77ca343b58a9e3a4b00d9db440efb8da74b4e58025e5a
+
+# Validate schema files that manage AWS Secrets Manager secrets
+jsonschema==3.2.0 \
+    --hash=sha256:4e5b3cf8216f577bee9ce139cbe72eca3ea4f292ec60928ff24758ce626cd163 \
+    --hash=sha256:c8a85b28d377cc7737e46e2d9f2b4f44ee3c0e1deac6bf46ddefc7187d30797a
+
+# Provides Python logging module handler to write to Logz.io
+logzio-python-handler==2.0.15 \
+    --hash=sha256:31fcb403e0457c5ce7be00c06b0375127583be64a0164827d5e33e2f71d9fb6e
+
+# Read/Write from/to AWS Document DB
+pymongo==3.10.1 \
+    --hash=sha256:01b4e10027aef5bb9ecefbc26f5df3368ce34aef81df43850f701e716e3fe16d \
+    --hash=sha256:0fc5aa1b1acf7f61af46fe0414e6a4d0c234b339db4c03a63da48599acf1cbfc \
+    --hash=sha256:1396eb7151e0558b1f817e4b9d7697d5599e5c40d839a9f7270bd90af994ad82 \
+    --hash=sha256:18e84a3ec5e73adcb4187b8e5541b2ad61d716026ed9863267e650300d8bea33 \
+    --hash=sha256:19adf2848b80cb349b9891cc854581bbf24c338be9a3260e73159bdeb2264464 \
+    --hash=sha256:20ee0475aa2ba437b0a14806f125d696f90a8433d820fb558fdd6f052acde103 \
+    --hash=sha256:26798795097bdeb571f13942beef7e0b60125397811c75b7aa9214d89880dd1d \
+    --hash=sha256:26e707a4eb851ec27bb969b5f1413b9b2eac28fe34271fa72329100317ea7c73 \
+    --hash=sha256:2a3c7ad01553b27ec553688a1e6445e7f40355fb37d925c11fcb50b504e367f8 \
+    --hash=sha256:2f07b27dbf303ea53f4147a7922ce91a26b34a0011131471d8aaf73151fdee9a \
+    --hash=sha256:316f0cf543013d0c085e15a2c8abe0db70f93c9722c0f99b6f3318ff69477d70 \
+    --hash=sha256:31d11a600eea0c60de22c8bdcb58cda63c762891facdcb74248c36713240987f \
+    --hash=sha256:334ef3ffd0df87ea83a0054454336159f8ad9c1b389e19c0032d9cb8410660e6 \
+    --hash=sha256:358ba4693c01022d507b96a980ded855a32dbdccc3c9331d0667be5e967f30ed \
+    --hash=sha256:3a6568bc53103df260f5c7d2da36dffc5202b9a36c85540bba1836a774943794 \
+    --hash=sha256:444bf2f44264578c4085bb04493bfed0e5c1b4fe7c2704504d769f955cc78fe4 \
+    --hash=sha256:47a00b22c52ee59dffc2aad02d0bbfb20c26ec5b8de8900492bf13ad6901cf35 \
+    --hash=sha256:4c067db43b331fc709080d441cb2e157114fec60749667d12186cc3fc8e7a951 \
+    --hash=sha256:4c092310f804a5d45a1bcaa4191d6d016c457b6ed3982a622c35f729ff1c7f6b \
+    --hash=sha256:53b711b33134e292ef8499835a3df10909c58df53a2a0308f598c432e9a62892 \
+    --hash=sha256:568d6bee70652d8a5af1cd3eec48b4ca1696fb1773b80719ebbd2925b72cb8f6 \
+    --hash=sha256:56fa55032782b7f8e0bf6956420d11e2d4e9860598dfe9c504edec53af0fc372 \
+    --hash=sha256:5a2c492680c61b440272341294172fa3b3751797b1ab983533a770e4fb0a67ac \
+    --hash=sha256:61235cc39b5b2f593086d1d38f3fc130b2d125bd8fc8621d35bc5b6bdeb92bd2 \
+    --hash=sha256:619ac9aaf681434b4d4718d1b31aa2f0fce64f2b3f8435688fcbdc0c818b6c54 \
+    --hash=sha256:6238ac1f483494011abde5286282afdfacd8926659e222ba9b74c67008d3a58c \
+    --hash=sha256:63752a72ca4d4e1386278bd43d14232f51718b409e7ac86bcf8810826b531113 \
+    --hash=sha256:6fdc5ccb43864065d40dd838437952e9e3da9821b7eac605ba46ada77f846bdf \
+    --hash=sha256:7abc3a6825a346fa4621a6f63e3b662bbb9e0f6ffc32d30a459d695f20fb1a8b \
+    --hash=sha256:7aef381bb9ae8a3821abd7f9d4d93978dbd99072b48522e181baeffcd95b56ae \
+    --hash=sha256:80df3caf251fe61a3f0c9614adc6e2bfcffd1cd3345280896766712fb4b4d6d7 \
+    --hash=sha256:95f970f34b59987dee6f360d2e7d30e181d58957b85dff929eee4423739bd151 \
+    --hash=sha256:993257f6ca3cde55332af1f62af3e04ca89ce63c08b56a387cdd46136c72f2fa \
+    --hash=sha256:9c0a57390549affc2b5dda24a38de03a5c7cbc58750cd161ff5d106c3c6eec80 \
+    --hash=sha256:a0794e987d55d2f719cc95fcf980fc62d12b80e287e6a761c4be14c60bd9fecc \
+    --hash=sha256:a3b98121e68bf370dd8ea09df67e916f93ea95b52fc010902312168c4d1aff5d \
+    --hash=sha256:a60756d55f0887023b3899e6c2923ba5f0042fb11b1d17810b4e07395404f33e \
+    --hash=sha256:a676bd2fbc2309092b9bbb0083d35718b5420af3a42135ebb1e4c3633f56604d \
+    --hash=sha256:a732838c78554c1257ff2492f5c8c4c7312d0aecd7f732149e255f3749edd5ee \
+    --hash=sha256:ad3dc88dfe61f0f1f9b99c6bc833ea2f45203a937a18f0d2faa57c6952656012 \
+    --hash=sha256:ae65d65fde4135ef423a2608587c9ef585a3551fc2e4e431e7c7e527047581be \
+    --hash=sha256:b070a4f064a9edb70f921bfdc270725cff7a78c22036dd37a767c51393fb956f \
+    --hash=sha256:b6da85949aa91e9f8c521681344bd2e163de894a5492337fba8b05c409225a4f \
+    --hash=sha256:bbf47110765b2a999803a7de457567389253f8670f7daafb98e059c899ce9764 \
+    --hash=sha256:bd9c1e6f92b4888ae3ef7ae23262c513b962f09f3fb3b48581dde5df7d7a860a \
+    --hash=sha256:c06b3f998d2d7160db58db69adfb807d2ec307e883e2f17f6b87a1ef6c723f11 \
+    --hash=sha256:c318fb70542be16d3d4063cde6010b1e4d328993a793529c15a619251f517c39 \
+    --hash=sha256:c4aef42e5fa4c9d5a99f751fb79caa880dac7eaf8a65121549318b984676a1b7 \
+    --hash=sha256:c9ca545e93a9c2a3bdaa2e6e21f7a43267ff0813e8055adf2b591c13164c0c57 \
+    --hash=sha256:da2c3220eb55c4239dd8b982e213da0b79023cac59fe54ca09365f2bc7e4ad32 \
+    --hash=sha256:dd8055da300535eefd446b30995c0813cc4394873c9509323762a93e97c04c03 \
+    --hash=sha256:e2b46e092ea54b732d98c476720386ff2ccd126de1e52076b470b117bff7e409 \
+    --hash=sha256:e334c4f39a2863a239d38b5829e442a87f241a92da9941861ee6ec5d6380b7fe \
+    --hash=sha256:e5c54f04ca42bbb5153aec5d4f2e3d9f81e316945220ac318abd4083308143f5 \
+    --hash=sha256:f4d06764a06b137e48db6d569dc95614d9d225c89842c885669ee8abc9f28c7a \
+    --hash=sha256:f96333f9d2517c752c20a35ff95de5fc2763ac8cdb1653df0f6f45d281620606
+
+# Make web requests to services
+requests==2.23.0 \
+    --hash=sha256:43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee \
+    --hash=sha256:b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6
+
+# CLI parser
+click==7.1.1 \
+    --hash=sha256:8a18b4ea89d8820c5d0c7da8a64b2c324b4dabb695804dbfea19b9be9d88c0cc \
+    --hash=sha256:e345d143d80bf5ee7534056164e5e112ea5e22716bbb1ce727941f4c8b471b9a
+
+# Parse and manipulate config files
+anyconfig==0.9.10 \
+    --hash=sha256:4e1674d184e5d9e56aad5321ee65612abaa7a05a03081ccf2ee452b2d557aeed
+
+# Repo operations
+GitPython==3.1.0 \
+    --hash=sha256:43da89427bdf18bf07f1164c6d415750693b4d50e28fc9b68de706245147b9dd \
+    --hash=sha256:e426c3b587bd58c482f0b7fe6145ff4ac7ae6c82673fc656f489719abca6f4cb
+
+# Create infra stubs
+cookiecutter==1.7.0 \
+    --hash=sha256:479997e1c26c51bbbaf04097ef7d82b1d91cfb03f570cb5fb5ca265c88db04ae \
+    --hash=sha256:910e6c423da42c45c2614d6676485d4872c4ed1bd9531cfff59280977f98fbf5
+
+# For using json_query in Ansible
+jmespath==0.9.5 \
+    --hash=sha256:695cb76fa78a10663425d5b73ddc5714eb711157e52704d69be03b1a02ba4fec \
+    --hash=sha256:cca55c8d153173e21baa59983015ad0daf603f9cb799904ff057bfb8ff8dc2d9
+
+# Interact with Kubernetes from Ansible
+openshift==0.11.0 \
+    --hash=sha256:bfc398aac8ad9d903b520e473290ebc35d9c9a739c8e083fde55d93288c7f67d
+
+# Validates Kubernetes configurations before submitting them
+kubernetes-validate==1.16.0 \
+    --hash=sha256:c0851bb3d9b1ef38fba844ac9bf5c07223689f3861273e8133c93db6792893d0
+
+# Query Wavefront for table results
+wavefront-sdk-python==1.6.3 \
+    --hash=sha256:4c600cec8456a677ad217df08a4b484dff8d0d8ef6132b8acffa106549b14a7c
+
+# Click completions
+click-completion==0.5.2 \
+    --hash=sha256:5bf816b81367e638a190b6e91b50779007d14301b3f9f3145d68e3cade7bce86
+
+# For calling CLI commands such as Ansible
+sh==1.12.14 \
+    --hash=sha256:ae3258c5249493cebe73cb4e18253a41ed69262484bad36fdb3efcb8ad8870bb \
+    --hash=sha256:b52bf5833ed01c7b5c5fb73a7f71b3d98d48e9b9b8764236237bdc7ecae850fc
+
+# Used for config model verification
+Cerberus==1.3.2 \
+    --hash=sha256:302e6694f206dd85cb63f13fd5025b31ab6d38c99c50c6d769f8fa0b0f299589
+
+# For printing trees in the CLI
+tree-format==0.1.2 \
+    --hash=sha256:a538523aa78ae7a4b10003b04f3e1b37708e0e089d99c9d3b9e1c71384c9a7f9 \
+    --hash=sha256:b5056228dbedde1fb81b79f71fb0c23c98e9d365230df9b29af76e8d8003de11
+
+# For printing tables of data to CLI
+tabulate==0.8.7 \
+    --hash=sha256:ac64cb76d53b1231d364babcd72abbb16855adac7de6665122f97b593f1eb2ba \
+    --hash=sha256:db2723a20d04bcda8522165c73eea7c300eda74e0ce852d9022e0159d7895007
+
+# Provides a method of installing dependencies
+python-gilt==1.2.3 \
+    --hash=sha256:e220ea2e7e190ee06dbfa5fafe87967858b4ac0cf53f3072fa6ece4664a42082
+
+# For linting steps in playbooks
+yamllint==1.21.0 \
+    --hash=sha256:09d554bafc57beb22b01619c94e1ba0e8fbb016fa9c1b35ddc68d7bfc16d177f \
+    --hash=sha256:7e1e698b3d344b64bc46cbe8c4df7dfdfe7c00ed1a8d1c851ecd5b552d93d193
+ansible-lint==4.2.0 \
+    --hash=sha256:b9fc9a6564f5d60a4284497f966f38ef78f0e2505edbe2bd1225f1ade31c2d8a \
+    --hash=sha256:eb925d8682d70563ccb80e2aca7b3edf84fb0b768cea3edc6846aac7abdc414a
+flake8==3.7.9 \
+    --hash=sha256:45681a117ecc81e870cbf1262835ae4af5e7a8b08e40b944a8a6e6b895914cfb \
+    --hash=sha256:49356e766643ad15072a789a20915d3c91dc89fd313ccd71802303fd67e4deca
+
+# Style checks
+pycodestyle==2.5.0 \
+    --hash=sha256:95a2219d12372f05704562a14ec30bc76b05a5b297b21a5dfe3f6fac3491ae56 \
+    --hash=sha256:e40a936c9a450ad81df37f549d676d127b1b66000a6c500caa2b085bc0ca976c
+
+# Work with Timezones
+pytz==2019.3 \
+    --hash=sha256:1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d \
+    --hash=sha256:b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be
+timezonefinder==4.2.0 \
+    --hash=sha256:5562f8f0af61733a2b19a0d16643b135c24c594905b1094a3d42ef0ac6cee947 \
+    --hash=sha256:57e93f4aefacc450684a9d71e4130ea385495fee449ff0db0076299a8e681661
+geopy==1.21.0 \
+    --hash=sha256:5de6fed0ee982e43a8e4243410477567cfccac22f8530edffc422761adf4e612 \
+    --hash=sha256:dc02b43ca5202696907b6b4f72431c8df455c812889dbb4e1240a672857f3adc
+
+# IP subnetting math
+netaddr==0.7.19 \
+    --hash=sha256:38aeec7cdd035081d3a4c306394b19d677623bf76fa0913f6695127c7753aefd \
+    --hash=sha256:56b3558bd71f3f6999e4c52e349f38660e54a7a8a9943335f73dfc96883e08ca
+
+# Natural sorting algos
+natsort==7.0.1 \
+    --hash=sha256:a633464dc3a22b305df0f27abcb3e83515898aa1fd0ed2f9726c3571a27258cf \
+    --hash=sha256:d3fd728a3ceb7c78a59aa8539692a75e37cbfd9b261d4d702e8016639820f90a
+deepdiff==4.3.2 \
+    --hash=sha256:59fc1e3e7a28dd0147b0f2b00e3e27181f0f0ef4286b251d5f214a5bcd9a9bc4 \
+    --hash=sha256:91360be1d9d93b1d9c13ae9c5048fa83d9cff17a88eb30afaa0d7ff2d0fee17d
