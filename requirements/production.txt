@@ -108,8 +108,8 @@ jmespath==0.9.5 \
     --hash=sha256:cca55c8d153173e21baa59983015ad0daf603f9cb799904ff057bfb8ff8dc2d9
 
 # Interact with Kubernetes from Ansible
-openshift==0.11.0 \
-    --hash=sha256:bfc398aac8ad9d903b520e473290ebc35d9c9a739c8e083fde55d93288c7f67d
+openshift==0.11.2 \
+    --hash=sha256:110b0d3c84a83500f0fd150ab26dee29615157e6659bf72808788aa79fc17afc
 
 # Validates Kubernetes configurations before submitting them
 kubernetes-validate==1.16.0 \
