@@ -457,7 +457,7 @@ setuptools==46.1.3 \
 readme_renderer==24.0 \
     --hash=sha256:bb16f55b259f27f75f640acf5e00cf897845a8b3e4731b5c1a436e4b8529202f \
     --hash=sha256:c8532b79afc0375a85f10433eca157d6b50f7d6990f337fa498c96cd4bfc203d
-bleach==3.1.4 \
+bleach==3.1.5 \
     --hash=sha256:cc8da25076a1fe56c3ac63671e2194458e0c4d9c7becfd52ca251650d517903c \
     --hash=sha256:e78e426105ac07026ba098f04de8abe9b6e3e98b5befbf89b51a5ef0a4292b03
 webencodings==0.5.1 \
