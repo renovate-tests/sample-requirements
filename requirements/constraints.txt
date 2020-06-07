@@ -592,5 +592,5 @@ sortedcontainers==2.1.0 \
 pockets==0.9.1 \
     --hash=sha256:68597934193c08a08eb2bf6a1d85593f627c22f9b065cc727a4f03f669d96d86 \
     --hash=sha256:9320f1a3c6f7a9133fe3b571f283bcf3353cd70249025ae8d618e40e9f7e92b3
-ordered-set==3.1.1 \
-    --hash=sha256:a7bfa858748c73b096e43db14eb23e2bc714a503f990c89fac8fab9b0ee79724
+ordered-set==4.0.1 \
+    --hash=sha256:a31008c57f9c9776b12eb8841b1f61d1e4d70dfbbe8875ccfa2403c54af3d51b
