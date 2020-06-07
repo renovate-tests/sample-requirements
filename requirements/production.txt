@@ -16,8 +16,8 @@ jsonschema==3.2.0 \
     --hash=sha256:c8a85b28d377cc7737e46e2d9f2b4f44ee3c0e1deac6bf46ddefc7187d30797a
 
 # Provides Python logging module handler to write to Logz.io
-logzio-python-handler==2.0.15 \
-    --hash=sha256:31fcb403e0457c5ce7be00c06b0375127583be64a0164827d5e33e2f71d9fb6e
+logzio-python-handler==3.0.0 \
+    --hash=sha256:5dfbd66b8b6a1bac82c3506d3bc809b89df4059b5336310c99cf45da3888a11e
 
 # Read/Write from/to AWS Document DB
 pymongo==3.10.1 \
