@@ -112,8 +112,8 @@ openshift==0.11.0 \
     --hash=sha256:bfc398aac8ad9d903b520e473290ebc35d9c9a739c8e083fde55d93288c7f67d
 
 # Validates Kubernetes configurations before submitting them
-kubernetes-validate==1.16.0 \
-    --hash=sha256:c0851bb3d9b1ef38fba844ac9bf5c07223689f3861273e8133c93db6792893d0
+kubernetes-validate==1.18.0 \
+    --hash=sha256:644de6ef65111040564f2cd8ea927ef34d91ef63ac58173697d471d3f8530ec3
 
 # Query Wavefront for table results
 wavefront-sdk-python==1.6.3 \
