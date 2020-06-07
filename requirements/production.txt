@@ -89,8 +89,9 @@ click==7.1.1 \
     --hash=sha256:e345d143d80bf5ee7534056164e5e112ea5e22716bbb1ce727941f4c8b471b9a
 
 # Parse and manipulate config files
-anyconfig==0.9.10 \
-    --hash=sha256:4e1674d184e5d9e56aad5321ee65612abaa7a05a03081ccf2ee452b2d557aeed
+anyconfig==0.9.11 \
+    --hash=sha256:8888130cde5461cb39379afdd1d09b1b1342356210f0a6743a4b60f9973226f8 \
+    --hash=sha256:e8594bd9898954538ed1370bd0a5dbded9e207548f933bbcd4dac5f48deb6a38
 
 # Repo operations
 GitPython==3.1.0 \
