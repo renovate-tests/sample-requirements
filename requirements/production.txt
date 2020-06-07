@@ -169,9 +169,9 @@ pytz==2019.3 \
 timezonefinder==4.2.0 \
     --hash=sha256:5562f8f0af61733a2b19a0d16643b135c24c594905b1094a3d42ef0ac6cee947 \
     --hash=sha256:57e93f4aefacc450684a9d71e4130ea385495fee449ff0db0076299a8e681661
-geopy==1.21.0 \
-    --hash=sha256:5de6fed0ee982e43a8e4243410477567cfccac22f8530edffc422761adf4e612 \
-    --hash=sha256:dc02b43ca5202696907b6b4f72431c8df455c812889dbb4e1240a672857f3adc
+geopy==1.22.0 \
+    --hash=sha256:d0adba79a4c50a0e253d4a9d2d86aea4a3c1c2ec0889c5c61500ea914dafb9a5 \
+    --hash=sha256:f860fd1d68d5951551c676a871a7a2eee0ad3f1da2f2eb318b28fb45b19ad74b
 
 # IP subnetting math
 netaddr==0.7.19 \
