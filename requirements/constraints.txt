@@ -568,9 +568,9 @@ networkx==2.4 \
 python-jose==3.1.0 \
     --hash=sha256:1ac4caf4bfebd5a70cf5bd82702ed850db69b0b6e1d0ae7368e5f99ac01c9571 \
     --hash=sha256:8484b7fdb6962e9d242cce7680469ecf92bda95d10bbcbbeb560cacdff3abfce
-responses==0.10.12 \
-    --hash=sha256:0474ce3c897fbcc1aef286117c93499882d5c440f06a805947e4b1cb5ab3d474 \
-    --hash=sha256:f83613479a021e233e82d52ffb3e2e0e2836d24b0cc88a0fa31978789f78d0e5
+responses==0.10.14 \
+    --hash=sha256:1a78bc010b20a5022a2c0cb76b8ee6dc1e34d887972615ebd725ab9a166a4960 \
+    --hash=sha256:3d596d0be06151330cb230a2d630717ab20f7a81f205019481e206eb5db79915
 sshpubkeys==3.1.0 \
     --hash=sha256:9f73d51c2ef1e68cd7bde0825df29b3c6ec89f4ce24ebca3bf9eaa4a23a284db \
     --hash=sha256:b388399caeeccdc145f06fd0d2665eeecc545385c60b55c282a15a022215af80
